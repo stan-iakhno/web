@@ -492,7 +492,7 @@ First we will compare the low-light vs. the high-light genomes in order to see i
 ```bash
 anvi-compute-functional-enrichment-in-pan -p PROCHLORO/Prochlorococcus_Pan-PAN.db \
                                           -g PROCHLORO-GENOMES.db \
-                                          --category light \
+                                          --category-variable light \
                                           --annotation-source COG14_FUNCTION \
                                           -o enriched-functions.txt
 ```
